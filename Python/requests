@@ -1,0 +1,15 @@
+import requests;
+
+url = 'https://www.poycode.cn/';
+params = {'id': 1024, 'name':'poycode'};
+# args为其他参数，如header、cookies之类
+response = requests.get("https://www.poycode.cn/", params) ;
+
+#打印完整请求地址
+print(response.url)
+print(response.status_code) # 返回状态码
+print(response.reason) # 正常返回OK，异常返回对应的Http响应状态描述
+print(response.headers)  # 获取响应头
+print(response.text) # 返回请求的内容
+print(response.content) # 返回请求的内容
+print(response.cookies) # cookies内容
