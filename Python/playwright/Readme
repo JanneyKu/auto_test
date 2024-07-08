@@ -1,1 +1,4 @@
 Python库playwright
+
+cmd命令
+python -m playwright install        //录制命令
