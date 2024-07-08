@@ -1,4 +1,6 @@
 Python库playwright
 
 cmd命令
-python -m playwright install        //录制命令
+pip install playwright              //安装库
+python -m playwright install        //安装驱动
+python -m playwright install        //录制web
