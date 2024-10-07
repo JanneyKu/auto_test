@@ -1,1 +1,12 @@
+celery基本使用
+# 安装：
+pip install celery
+ 
+# window 上启动 work
+## 4.x版本及之前
+pip install eventlet
+celery worker -A celery_task -l info -P eventlet
+## 5.x版本
+pip install eventlet
+celery -A celery_task worker -l info -P eventlet
 
